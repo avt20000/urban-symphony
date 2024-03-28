@@ -1,0 +1,350 @@
+.bodystyle{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "tuna";
+    color: #000000;
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(255, 250, 230);
+}
+
+.header1{
+    margin-top: 0%;
+    margin-left: 9.5%;
+    font-family: "tuna";
+    font-weight: 500;
+    font-size: 25pt;
+    
+}
+.subheader1{
+    margin-top: 0%;
+    margin-left: 10%;
+    font-weight: 300;
+    font-size:20pt;
+}
+.subsubheader{
+    margin-left: 55%;
+    font-weight: 300;
+    font-size: 18pt;
+    font-style:italic;
+}
+
+.homemap {
+    /* background-position: center;
+    background-image: url("../images/map.jpeg"); */
+    /* width: 100%; */
+    /* background-color: #c10a0a; */
+    /* background-size: contain;
+    background-repeat: no-repeat;*/
+    position: absolute; 
+   
+    margin: auto;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    top:55%
+}
+.button1{
+    position: absolute;
+    left: 64%;
+    top: 55%;
+    width: 10%;
+    height: 10%;
+   
+    &:hover {
+        opacity: 0.75;
+        cursor: pointer;
+     };
+}
+.button2{
+    position: absolute;
+    left: 81%;
+    top: 76%;
+    width: 10%;
+    height: 25%;
+ 
+    &:hover {
+        opacity: 0.75;
+        cursor: pointer;
+     }
+    
+}
+
+.button3{
+    position: absolute;
+    left: 77%;
+    top: 53%;
+    width: 10%;
+    height: 25%;
+ 
+    opacity:1;
+    &:hover {
+        opacity: 0.75;
+        cursor: pointer;
+     };
+}
+
+.button4{
+    position: absolute;
+    left: 14%;
+    top: 53%;
+    width: 10%;
+    height: 25%;
+ 
+    opacity:1;
+    &:hover {
+        opacity: 0.75;
+        cursor: pointer;
+     };
+}
+
+a {
+    text-decoration: none;
+    
+}
+.underline {
+    &:hover {
+        text-decoration: underline;
+     };
+    
+}
+.frame{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 250, 230);
+}
+.header2 {
+    position: absolute;
+    left: 5%;
+    top: -2%;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20pt;
+    
+}
+
+.header3 {
+    position: absolute;
+    left: 3%;
+    top: -3%;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20pt;
+    
+}
+
+.header4 {
+    position: absolute;
+    left: 2.5%;
+    top: -2%;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20pt;
+    
+}
+.subheader2 {
+    position: absolute;
+    left: 62%;
+    top: 2.5%;
+    font-weight: 450;
+    font-size: 15pt;
+    
+}
+
+.subheader3 {
+    position: absolute;
+    left: 62%;
+    top: 2.5%;
+    font-weight: 450;
+    font-size: 15pt;
+    
+}
+
+.subheader4 {
+    position: absolute;
+    left: 61%;
+    top: 2.5%;
+    font-weight: 450;
+    font-size: 15pt;
+    
+}
+
+.subsubheader2 {
+    position: absolute;
+    left: 34%;
+    top: 2.5%;
+    font-weight: 300;
+    font-size: 15pt;
+    font-style:italic;
+    
+} 
+
+.subsubheader3 {
+    position: absolute;
+    left: 3.5%;
+    top: 6%;
+    font-weight: 300;
+    font-size: 15pt;
+    font-style:italic;
+    
+}
+
+.subsubheader4 {
+    position: absolute;
+    left: 31.5%;
+    top: 2.5%;
+    font-weight: 300;
+    font-size: 15pt;
+    font-style:italic;
+    
+}
+
+.subsubheader5 {
+    position: absolute;
+    left: 27%;
+    top: 2.5%;
+    font-weight: 300;
+    font-size: 15pt;
+    font-style:italic;
+    
+} 
+
+.home {
+    position: absolute;
+    left: 5%;
+    bottom: 1%;
+    text-align: center;
+    font-size: 8pt;
+    font-family: "fenwick";
+    &:hover {
+        transform: rotate(-15deg);
+        cursor: pointer;
+     };
+}
+
+.text{
+    position: absolute;
+    left: 13%;
+    bottom: 1%;
+    text-align: center;
+    font-size: 8pt;
+    font-family: "fenwick";
+    color: #000000;
+    &:hover {
+        opacity: 0.95;;
+        cursor: pointer;
+    }
+}
+
+.les {
+    background-position: center;
+    background-image: url("../images/lowereast1.png");
+    width: 50%;
+    margin: 6%;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.les2 {
+    background-position: center;
+    background-image: url("../images/lowereast2.png");
+    width: 80%;
+    height: 80%;
+    margin: 6%;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.les3 {
+    background-position: center;
+    background-image: url("../images/lowereast3.png");
+    border-top: 50px;
+    max-width: 50%;
+    width: 50%;
+    margin: 6%;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.uws {
+    background-position: center;
+    background-image: url("../images/uws.png");
+    border-top: 50px;
+    max-width: 50%;
+    width: 50%;
+    margin: 6%;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 50%;
+    margin: 50px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: transparent
+}
+
+.container2 {
+    max-width: 50%;
+    margin: 40px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: transparent
+}
+
+
+.cell {
+                         /* don't grow, don't shrink, width */
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent
+  }
+
+  .buttonimage{
+    max-width: 90%;
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &:hover {
+        transform: rotate(15deg);
+        cursor: pointer;
+        
+     };
+  }
+  .buttonlabel{
+    font-family: "fenwick", sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+html,body{
+    height:100%;
+     min-height:100%; 
+    }
+
+.trib {
+    background-position: left center;
+    background-image: url("../images/lowereast1.png");
+    width: 75%;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tribeca</title>
+    <meta name="description" content="Our first page" />
+    <meta name="keywords" content="html tutorial template" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="icon" type="image/png" href="./images/favicon2.png" />
+    <link rel="stylesheet" href="https://use.typekit.net/boo3oca.css">
+    <link rel="stylesheet" href="https://use.typekit.net/boo3oca.css">
+  </head>
+  <style></style>
+
+  <script>
+    function play(audio_id) {
+      var audioElements = document.querySelectorAll("audio");
+      for (var i = 0; i < audioElements.length; i++) {
+        audioElements[i].pause();
+        audioElements[i].currentTime = 0;
+      }
+      var audioss = document.getElementById(audio_id);
+      audioss.play();
+    }
+  </script>
+
+  <body class="bodystyle">
+    <div class="frame">
+      <div class="header3"> <h2>fidi, tribeca, & battery park-</h2></p></div>
+      <div class="subheader3"><p>this area sounds like... (click any icon)</p></div>
+      <div class="subsubheader3"><p>recorded at noon 03.19.24 on a sony pcm a10</p></div>
+      <div class="les2"></div>
+      <div class="home"> <a href="index.html">
+        <img src="./images/home.png"> <p>back to map</p>
+      
+      </a>
+      </div>
+
+      <div class="text"> <a href="tribecatext.html">
+        <img src="./images/text.png"> <p>toggle labels</p>
+      </a></div>
+
+      
+      <div class="container2">
+
+            <div class="cell" onclick="play('audio1')">
+              <img class="buttonimage" src="./images/basketball.png" />
+              <audio id="audio1" src="./audio/basketball.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio2')">
+              <img class="buttonimage" src="./images/coffee.png" />
+              <audio id="audio2" src="./audio/coffee.mp3"></audio></div>
+            
+            <div class="cell" onclick="play('audio3')">
+            <img class="buttonimage" src="./images/elementary.png" />
+            <audio id="audio3" src="./audio/elementaryschool.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio4')">
+              <img class="buttonimage" src="./images/etrain_.png" />
+              <audio id="audio4" src="./audio/etrain.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio5')">
+              <img class="buttonimage" src="./images/ferrylanding.png" />
+              <audio id="audio5" src="./audio/ferrylanding.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio6')">
+              <img class="buttonimage" src="./images/helicopter.png" />
+              <audio id="audio6" src="./audio/helicopter.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio7')">
+              <img class="buttonimage" src="./images/memorial.png" />
+              <audio id="audio7" src="./audio/memorial.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio8')">
+              <img class="buttonimage" src="./images/oculus.png" />
+              <audio id="audio8" src="./audio/oculus.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio9')">
+              <img class="buttonimage" src="./images/quiet_intersection.png" />
+              <audio id="audio9" src="./audio/quietintersect.mp3"></audio></div>
+      </div> 
+  </body>
+</html>

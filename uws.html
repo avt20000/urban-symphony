@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upper West Side</title>
+    <meta name="description" content="Our first page" />
+    <meta name="keywords" content="html tutorial template" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="icon" type="image/png" href="./images/favicon2.png" />
+    <link rel="stylesheet" href="https://use.typekit.net/boo3oca.css">
+    <link rel="stylesheet" href="https://use.typekit.net/boo3oca.css">
+  </head>
+  <style></style>
+
+  <script>
+    function play(audio_id) {
+      var audioElements = document.querySelectorAll("audio");
+      for (var i = 0; i < audioElements.length; i++) {
+        audioElements[i].pause();
+        audioElements[i].currentTime = 0;
+      }
+      var audioss = document.getElementById(audio_id);
+      audioss.play();
+    }
+  </script>
+
+  <body class="bodystyle">
+    <div class="frame">
+      <div class="header2"> <h2>upper west side-</h2></p></div>
+      <div class="subheader2"><p>this area sounds like... (click any icon)</p></div>
+      <div class="subsubheader5"><p>recorded ??? with iphone video</p></div>
+      <div class="uws"></div>
+      <div class="home"> <a href="index.html">
+        <img src="./images/home.png"> <p>back to map</p>
+      
+      </a>
+      </div>
+      
+      <div class="text"> <a href="uwstext.html">
+        <img src="./images/text.png"> <p>toggle labels</p>
+      </a></div>
+
+      <div class="container">
+
+            <div class="cell" onclick="play('audio1')">
+              <img class="buttonimage" src="./images/bird2.png" />
+              <audio id="audio1" src="./audio/bird2.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio2')">
+              <img class="buttonimage" src="./images/cafe_.png" />
+              <audio id="audio2" src="./audio/cafe.mp3"></audio></div>
+            
+            <div class="cell" onclick="play('audio3')">
+            <img class="buttonimage" src="./images/church.png" />
+            <audio id="audio3" src="./audio/church.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio4')">
+              <img class="buttonimage" src="./images/localmarket.png" />
+              <audio id="audio4" src="./audio/localmarket.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio5')">
+              <img class="buttonimage" src="./images/nhm_.png" />
+              <audio id="audio5" src="./audio/nhm.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio6')">
+              <img class="buttonimage" src="./images/streetmusic.png" />
+              <audio id="audio6" src="./audio/streetmusic.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio7')">
+              <img class="buttonimage" src="./images/students.png" />
+              <audio id="audio7" src="./audio/students2.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio8')">
+              <img class="buttonimage" src="./images/subway.png" />
+              <audio id="audio8" src="./audio/subway.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio9')">
+              <img class="buttonimage" src="./images/traffic.png" />
+              <audio id="audio9" src="./audio/traffic.mp3"></audio></div>
+      </div> 
+  </body>
+</html>

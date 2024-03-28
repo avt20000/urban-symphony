@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greenwich and Union</title>
+    <meta name="description" content="Our first page" />
+    <meta name="keywords" content="html tutorial template" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="icon" type="image/png" href="./images/favicon2.png" />
+    <link rel="stylesheet" href="https://use.typekit.net/boo3oca.css">
+    <link rel="stylesheet" href="https://use.typekit.net/boo3oca.css">
+  </head>
+  <style></style>
+
+  <script>
+    function play(audio_id) {
+      var audioElements = document.querySelectorAll("audio");
+      for (var i = 0; i < audioElements.length; i++) {
+        audioElements[i].pause();
+        audioElements[i].currentTime = 0;
+      }
+      var audioss = document.getElementById(audio_id);
+      audioss.play();
+    }
+  </script>
+
+  <body class="bodystyle">
+    <div class="frame">
+      <div class="header4"> <h2>canal and chinatown-</h2></p></div>
+      <div class="subheader4"><p>this area sounds like... (click any icon)</p></div>
+      <div class="subsubheader4"><p>recorded 2:00pm 03.19.24 on a sony pcm a10</p></div>
+      <div class="les3"></div>
+      <div class="home"> <a href="index.html">
+        <img src="./images/home.png"> <p>back to map</p>
+      
+      </a>
+      </div>
+
+      <div class="text"> <a href="chinatowntext.html">
+        <img src="./images/text.png"> <p>toggle labels</p>
+      </a></div>
+
+
+
+      
+      <div class="container">
+
+            <div class="cell" onclick="play('audio1')">
+              <img class="buttonimage" src="./images/flags.png" />
+              
+              <audio id="audio1" src="./audio/flags.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio2')">
+              <img class="buttonimage" src="./images/fruitstand.png" />
+               
+              <audio id="audio2" src="./audio/fruitstand.mp3"></audio></div>
+            
+            <div class="cell" onclick="play('audio3')">
+            <img class="buttonimage" src="./images/giftshop.png" />
+              
+            <audio id="audio3" src="./audio/giftshop.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio4')">
+              <img class="buttonimage" src="./images/unidentified_.png" />
+          
+              <audio id="audio4" src="./audio/mysteriousbeep.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio5')">
+              <img class="buttonimage" src="./images/qtrain.png" />
+              
+              <audio id="audio5" src="./audio/qtrain.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio6')">
+              <img class="buttonimage" src="./images/smokers.png" />
+             
+              <audio id="audio6" src="./audio/smokers.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio7')">
+              <img class="buttonimage" src="./images/tourgroups.png" />
+            
+              <audio id="audio7" src="./audio/tourgroups.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio8')">
+              <img class="buttonimage" src="./images/wait.png" />
+               
+              <audio id="audio8" src="./audio/wait.mp3"></audio></div>
+
+            <div class="cell" onclick="play('audio9')">
+              <img class="buttonimage" src="./images/windchimes.png" />
+              
+              <audio id="audio9" src="./audio/windchimes.mp3"></audio></div>
+      </div> 
+  </body>
+</html>

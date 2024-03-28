@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Urban Symphony</title>
+    <meta name="description" content="Our first page" />
+    <meta name="keywords" content="html tutorial template" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="icon" type="image/png" href="./images/favicon2.png" />
+    <link rel="stylesheet" href="https://use.typekit.net/boo3oca.css">
+    <link rel="stylesheet" href="https://use.typekit.net/boo3oca.css">
+  </head>
+  <style>
+   
+  </style>
+  <script>
+    function play(audio_id) {
+      var audioElements = document.querySelectorAll("audio");
+      for (var i = 0; i < audioElements.length; i++) {
+        audioElements[i].pause();
+        audioElements[i].currentTime = 0;
+      }
+      var audioss = document.getElementById(audio_id);
+      audioss.play();
+    }
+
+  </script>
+  <body class="bodystyle">
+    <div class="header1">
+      <h1>urban symphony</h1>
+    </div>
+    <div class="subheader1">
+      <p>what defines the "sound" of any specific area? 
+        do certain parts of cities, despite having close geographical 
+        proximity, sound visually distinct from one another? this 
+        website seeks to map out the auditory landscape of manhattan 
+        by indexing live recorded audio of various neighborhoods.</p> 
+    </div>
+    <div class="subsubheader">
+      <p>...click any button to begin </p>
+    </div>
+    
+    <div class="frame">
+        <div class="homemap">
+          <img src="./images/newmap.png" class="center-fit" alt="map" >
+
+          <a href="thevillage.html">
+            <div class="button1">
+              <img src="./images/button1.png">
+            </div>
+            <img src >
+          </a>
+          <a href="tribeca.html">
+            <div class="button2">
+            <img src="./images/button1.png">
+          </a>
+          </div>
+
+          <a href="chinatown.html">
+            <div class="button3">
+            <img src="./images/button1.png">
+          </a>
+          </div>
+
+          <a href="uws.html">
+            <div class="button4">
+            <img src="./images/button1.png">
+          </a>
+          </div>
+        
+          
+
+        </div>
+      
+    </div>
+
+
+  </body>
+</html>
